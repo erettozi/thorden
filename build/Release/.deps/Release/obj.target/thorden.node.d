@@ -1,0 +1,1 @@
+cmd_Release/obj.target/thorden.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=thorden.node -o Release/obj.target/thorden.node -Wl,--start-group Release/obj.target/thorden/main.o Release/obj.target/thorden/include/log.o -Wl,--end-group 

@@ -7,8 +7,8 @@
 /*
 * Import thorden
 */
-var thorden = require('thorden');
-var log = new thorden.Logger({
+const thorden = require('thorden');
+const log = new thorden.Logger({
 	Transports: {
 		File: {
                 	filename: './file.log', // Output
@@ -20,9 +20,9 @@ var log = new thorden.Logger({
 	}
 });
 
-var code = '110196009';
-var login = 'login_test';
-var domain = 'domaintest.com.br';
+let code = '110196009';
+let login = 'login_test';
+let domain = 'domaintest.com.br';
 
 log.info('YourMethodName','INFO Test - code[%s] - login[%s] - domain[%s] - json[%j]',code,login,domain,{dataInfo: 'info message'});
 

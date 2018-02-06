@@ -7,8 +7,8 @@
 /*
 * Import thorden
 */
-var thorden = require('thorden');
-var log = new thorden.Logger({
+const thorden = require('thorden');
+const log = new thorden.Logger({
 	Transports: {
 		File: [
 			{
@@ -48,7 +48,7 @@ var log = new thorden.Logger({
 	}
 });
 
-var userData = {
+let userData = {
      "firstName": "John",
      "lastName": "Smith",
      "age": 25,
@@ -72,7 +72,7 @@ var userData = {
      ]
 };
 
-var logLine = {
+let logLine = {
         email:'jsmith@gmail.com',
         userJsonMetadata:userData,
         code:'110196009',
