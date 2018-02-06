@@ -1,0 +1,24 @@
+{
+  "name": "thorden",
+  "version": "1.0.0",
+  "description": "High performance async logging library for Node.js (C/C++ Addons)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erettozi/thorden.git"
+  },
+  "author": "Erick Rettozi",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/erettozi/thorden/issues"
+  },
+  "homepage": "https://github.com/erettozi/thorden#readme"
+}

@@ -9,8 +9,8 @@ Transports handles
 ## Transports
 
 ``` js
-  var thorden = require('thorden');
-  var log = new thorden.Logger({
+  const thorden = require('thorden');
+  const log = new thorden.Logger({
 	Transports: {
 		File: {
 			filename: './file.log', // Output
