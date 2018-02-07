@@ -224,7 +224,3 @@ Transports handles
 
   log.destroy();
 ```
-
-### INSTALL
-
-  Run the command to install: **sudo npm install thorden**
