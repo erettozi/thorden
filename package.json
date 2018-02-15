@@ -2,7 +2,7 @@
   "name": "thorden",
   "version": "1.0.4",
   "description": "High performance async logging library for Node.js (C/C++ Addons)",
-  "main": "index.js",
+  "main": "build/Release/thorden.node",
   "directories": {
     "example": "examples"
   },
