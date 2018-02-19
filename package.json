@@ -19,7 +19,8 @@
     "log",
     "logs",
     "logger",
-    "addons"
+    "addons",
+    "c++"
   ],
   "author": "Erick Rettozi",
   "license": "MIT",
